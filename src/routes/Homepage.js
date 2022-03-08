@@ -1,11 +1,39 @@
 import React from 'react'
 import "./Homepage.css"
+import Carousel from 'nuka-carousel'
+import Ayato from "../ArtWork/Ayato.jpg"
+import Elementalist from "../ArtWork/Elementalist.jpg"
+import KCRekkles from "../ArtWork/KCRekkles.jpg"
+import LanternRiteYaeMiko from "../ArtWork/LanternRiteYaeMiko.jpg"
+import MonarchMona from "../ArtWork/MonarchMona.jpg"
+import Pardofelis from "../ArtWork/Pardofelis.jpg"
+import PorcelainGanyu from "../ArtWork/PorcelainGanyu.png"
+import StarchasmHutao from "../ArtWork/StarchasmHutao.jpg"
+import StargazerVienna from "../ArtWork/StargazerVienna.jpg"
+import YaeMiko from "../ArtWork/YaeMiko.jpg"
+import YearOfTheTiger from "../ArtWork/YearOfTheTiger.jpg"
+
 
 const Homepage = () => {
   return (
     <div className="">
-     
-     <img src="https://th.bing.com/th/id/R.d0827fce74ff6bc3169a8de1fa3b4646?rik=WLXWllQWEFIsmQ&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2017%2f10%2f24%2f471684-long_hair-animal_ears-Blade_amp_Soul-pantyhose-sword-tail-simple_background-anime_girls-anime.jpg&ehk=3mp1fhKlGUwLNQJDYaka0THwiqqKFPr6Z6URApLuu6o%3d&risl=&pid=ImgRaw&r=0" class="img-fluid max-width: 100%;" alt="Responsive image"></img>
+      <h1>Welcome to MercuryJC</h1>
+     <>
+       <Carousel>
+        <img src={Ayato} />
+        <img src={Elementalist} />
+        <img src={KCRekkles} />
+        <img src={LanternRiteYaeMiko} />
+        <img src={MonarchMona} />
+        <img src={Pardofelis} />
+        <img src={PorcelainGanyu} />
+        <img src={StarchasmHutao} />
+        <img src={StargazerVienna} />
+        <img src={YaeMiko} />
+        <img src={YearOfTheTiger} />
+       </Carousel>
+       
+     </>
     </div>
   )
 }
